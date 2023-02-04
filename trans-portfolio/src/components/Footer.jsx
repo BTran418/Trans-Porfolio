@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
     return (
-     <div>
+     <div className="py-5 text-center">
         {/*Social Media Links*/}
-        <p className="text-sm mt-2 opacity-50 text-center">
+        <p className="text-sm mt-2 opacity-50">
             &copy; {new Date().getFullYear()} {" "}
             Brendan Tran
             All rights reserved
